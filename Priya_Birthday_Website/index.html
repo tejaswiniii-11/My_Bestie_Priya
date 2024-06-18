@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Priya!</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #ffcccb;
+            color: #ffffff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #ff6699;
+            padding: 20px;
+            border-bottom: 5px solid #ff3366;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        .content {
+            padding: 20px;
+            font-size: 1.2em;
+        }
+        .images-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .images-container img {
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .buttons-container {
+            margin: 20px;
+        }
+        .buttons-container button {
+            background-color: #ff3366;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+            transition: background-color 0.3s ease;
+        }
+        .buttons-container button:hover {
+            background-color: #ff6699;
+        }
+        .footer {
+            background-color: #ff6699;
+            padding: 10px;
+            border-top: 5px solid #ff3366;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer p {
+            margin: 0;
+        }
+        .navbar {
+            background-color: #ff6699;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .navbar a:hover {
+            background-color: #ff3366;
+        }
+        .active {
+            background-color: #ff3366;
+        }
+        .container {
+            padding: 20px;
+        }
+        .feedback-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .feedback-form textarea {
+            width: 100%;
+            height: 150px;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: vertical;
+        }
+        .feedback-form button {
+            background-color: #ff3366;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+        .feedback-form button:hover {
+            background-color: #ff6699;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#heartfelt">Heartfelt Connection</a>
+        <a href="#feedback">Hit Me Up</a>
+    </div>
+
+    <div id="home" class="container">
+        <div class="header">
+            <h1>Happy Birthday Priya!</h1>
+            <p>🎉🎂🎁🥳</p>
+        </div>
+        <div class="content">
+            <h4>Dear Priya,</h4>
+            <p>Happy Birthday to my dearest friend! Even though miles separate us, the bond we share remains unbreakable. Your friendship has been a beacon of joy and strength in my life, and I cherish every memory we've created together. On this special day, I wish you immense happiness, boundless love, and all the success in the world. May your day be as wonderful and extraordinary as you are. Remember, no distance can diminish the love and connection we hold in our hearts. Cheers to many more birthdays and beautiful moments, my forever friend!</p>
+            <h2>Happy Birthday! To My Forever Bestie <3</h2>
+        </div>
+        <div class="images-container" id="images-container"></div>
+        <div class="buttons-container">
+            <button onclick="showSurprise1()">Tap Me :)</button>
+            <button onclick="showSurprise2()">Tap Me :p</button>
+            <button onclick="showSurprise3()">Tap Me ;)</button>
+        </div>
+    </div>
+
+    <div id="about" class="container" style="display: none;">
+        <div class="header">
+            <h1>Extraordinary camaraderie</h1>
+        </div>
+        <div class="content">
+            <h4>Its been 6 years for our friendship and time sure flies so fast. I still remember our moments of fun, joy and happiness we used to spend in our school bus while commuting back and forth school. Those were innocent , naive days of ours. You were not just a well guiding senior, but a close confidant as well for me at that time. With time we have come to live in different cities, miles apart chasing our goals and living our own lives separately. Many misunderstandings did occur and distance did grew kinda with time, but the memories we had, l still carry it in my heart. l want us not to grow apart and with time only become a stronger companion for each other and a place where we can be our true selves and be happy. l hope you achieve an epic growth in your professionalism as well as lots of love in your life, ofcourse l will always be there for you and will always support you no matter what! You mean a lot to me! I have always regarded you as my close buddy.. so always wishing only happiness for you. May our friendship flourish for many more coming years and I get to enjoy your smile.. till forever!
+
+                Once again wishing you a happy birthday dear!</h4>
+            <div class="images-container">
+                <!-- Add friendship images and content -->
+                <img src="https://imgs.search.brave.com/-KwP-dBIy3dT2BnNBMQj2ZxEyxI63UjU1bpe-CC_D8o/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9wb3N0ZXItZ2ly/bC13aXRoLXBpY3R1/cmUtZ2lybC1naXJs/LXdpdGgtd29yZHMt/d2UtYXJlLXRoZW1f/MTIzMTE4Ny00MDM1/LmpwZz9zaXplPTYy/NiZleHQ9anBn" alt="Friendship Image 1">
+               
+            </div>
+        </div>
+    </div>
+
+    <div id="heartfelt" class="container" style="display: none;">
+        <div class="header">
+            <h1>Heartfelt Connection </h1>
+        </div>
+        <div class="content">
+            <h3>Teju & Priya's bond transcends Distance and Time. Priya is an irreplaceable part of Teju's life&#129505;:</h3>
+            <p>Why Priya is important to Teju:</p>
+            <ul>
+                <li>Reason 1- Long-standing friendship: Teju's friendship with Priya spans over 6 years, dating back to school days. This long-standing bond has withstood the test of time, indicating a deep and meaningful connection</li>
+                <li>Reason 2- Shared memories: Teju cherishes the innocent and joyful moments she shared with Priya during her school days, especially the times spent together in the school bus. These shared experiences have created a strong foundation of memories that Teju holds dear in her heart</li>
+                <li>Reason 3- Guidance and confidant: Priya was not only a well-guiding senior but also a close confidant to Teju during her formative years. This highlights the trust, support, and emotional intimacy that existed in their friendship.</li>
+                <li>Reason 4- Enduring bond despite distance: Despite living in different cities and pursuing separate goals, Teju's friendship with Priya has endured. Even though misunderstandings and distance grew over time, the bond Teju share with Priya remains strong</li>
+                <li>Reason 5- Acceptance and authenticity: Teju expresses a desire their friendship to grow stronger, where one can be it's true self and find happiness together. This suggests that Priya provides Teju with a safe space to be authentic and accepted without judgment</li>
+                <li>Reason 6- Unwavering support: Teju will always be there for Priya, no matter what, and will support Priya through life's challenges. This unwavering commitment of well-being highlights the depth of Teju's care and concern for Priya</li>
+                <li>Reason 7- Irreplaceable presence: Teju regards Priya as her close buddy, someone who means a lot to Teju and holds an irreplaceable place in her life. This sentiment underscores the unique and invaluable role Priya plays in Teju's life</li>
+                <li>Reason 8- Lifelong companionship: Teju wishes for the friendship to flourish for many more years and to continue to remain a constant and cherished companion in Priya's life's journey</li>
+            </ul>
+            <h3>There are further many reasons for the friendship between Teju & Priya to grow more.. the above were some of them. Teju hopes to see Priya's bright future including her naughty kids &#128540;&#129315;
+            </h3>
+            <h2>ps: I know it's too much to read but you need to read it anyways &#128548;</h2>
+        </div>
+    </div>
+
+    <div id="feedback" class="container" style="display: none;">
+        <div class="header">
+            <h1>Hit Me Up</h1>
+        </div>
+        <div class="content">
+            <p>Got something to say? Leave it in the box ! And It Will Be Mailed To Teju :p</p>
+            <div class="feedback-form">
+                <textarea id="feedbackMessage" placeholder="I ain't well adversed in this Tech Stack.. Just tried to make one so for You, So Write your feedback here..."></textarea>
+                <br>
+                <button onclick="sendFeedback()">Send Feedback</button>
+            </div>
+            <h4>Happy 22! One More Year Added To This Kid's Adulthood!🎉</h4>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>With lots of love, Teju</p>
+    </div>
+
+    <!-- Audio element for birthday music -->
+    <audio id="birthdayAudio" src="D:\Tejaswini Todkar\Project Practice\Priya_Birthday_Website\TaylorSwift _22.mp3" type="audio/mpeg"></audio>
+
+    <script>
+        const imagesContainer = document.getElementById('images-container');
+
+        const imageUrls = [
+            'https://imgs.search.brave.com/YteOC5bNFcMAyvn1lbHsIarA9irXWS_fQFkqd6NHaWA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZnVuaW1hZGEuY29t/L2Fzc2V0cy9pbWFn/ZXMvY2FyZHMvYmln/L2JkYXktMTM0NS5n/aWY.gif',
+            'https://imgs.search.brave.com/90ojbGy5hHYvcvtHvgRSj_FJ4EmXKIaWe69gH0v187U/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZnVuaW1hZGEuY29t/L2Fzc2V0cy9pbWFn/ZXMvY2FyZHMvYmln/LzIybmQtYmlydGhk/YXktMjQuZ2lm.gif',
+            'https://imgs.search.brave.com/kqhs_nHjsP_WEGaqpFI34vQUI9ooNK-mqFx2ryOF9jI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9n/aXJscy1mcmllbmRz/aGlwLWNhcnRvb25f/MjMtMjE1MTQ5MjA5/My5qcGc_c2l6ZT02/MjYmZXh0PWpwZw', // Replace with actual image URLs
+            'https://imgs.search.brave.com/WiUO7FlNLACGNKDNHbt17_tOQRSnP9n3EHh7svIEyCc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9mcmllbmRzaGlw/LXN0aWNrZXItYmVz/dC1mcmllbmRzXzY2/NTI4MC02NDM0MS5q/cGc', // Replace with actual image URLs
+            // Add more URLs as needed
+        ];
+
+        imageUrls.forEach(url => {
+            const img = document.createElement('img');
+            img.src = url; //add image
+            img.alt = 'Birthday Image';
+            imagesContainer.appendChild(img);
+        });
+
+        function showSurprise1() {
+            alert('A virtual hug from me to you!');
+        }
+
+        function showSurprise2() {
+            alert('I Love You! Let\'s meet soon!');
+        }
+
+        function showSurprise3() {
+            alert('You are the best, Priya! Cheers to many more birthdays and memories together!');
+        }
+
+        function sendFeedback() {
+            const feedbackMessage = document.getElementById('feedbackMessage').value;
+            const email = '21102102.tejaswini.todkar@gmail.com';
+            const subject = 'Feedback from Priya\'s Birthday Website :)';
+            const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(feedbackMessage)}`;
+            window.location.href = mailtoLink;
+        }
+
+        // Navbar functionality
+        const navbarLinks = document.querySelectorAll('.navbar a');
+        const containers = document.querySelectorAll('.container');
+
+        navbarLinks.forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                containers.forEach(container => {
+                    if (container.id === targetId) {
+                        container.style.display = 'block';
+                    } else {
+                        container.style.display = 'none';
+                    }
+                });
+                navbarLinks.forEach(navLink => {
+                    if (navLink === link) {
+                        navLink.classList.add('active');
+                    } else {
+                        navLink.classList.remove('active');
+                    }
+                });
+            });
+        });
+
+        // Play birthday music when the page loads
+        window.addEventListener('load', () => {
+            const birthdayAudio = document.getElementById('birthdayAudio');
+            birthdayAudio.play().catch(error => {
+                console.error('Failed to play audio:', error);
+            });
+        });
+    </script>
+</body>
+</html>
