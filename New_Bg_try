@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Priya</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #ff7e5f;
+        }
+
+        .cake-image {
+            width: 100%;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        button {
+            background-color: #ff7e5f;
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #feb47b;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #message {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #ff7e5f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Happy Birthday, Priya!</h1>
+            <img src="birthday_cake.jpg" alt="Birthday Cake" class="cake-image">
+            <p>Wishing you all the best on your special day!</p>
+            <button onclick="showMessage()">Click for a surprise</button>
+            <div id="message" class="hidden">
+                <p>May your birthday be filled with happiness and your year with joy. Happy Birthday, Priya!</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function showMessage() {
+            document.getElementById("message").classList.toggle("hidden");
+        }
+    </script>
+</body>
+</html>
